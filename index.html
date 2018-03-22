@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Registration form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <section>
+
+    <form>
+      <h1>Want to go to Mars?</h1>
+
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+
+        <fieldset>
+          <legend>Personal details</legend>
+          <div>
+            <label for="name">Name</label>
+            <input id="name" required>
+          </div>
+          <div>
+            <label for="age">Age</label>
+            <input id="age">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" required>
+          </div>
+
+        <div>
+          <label for="fitness">Physical fitness</label>
+          <select id="fitness">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="address">Address</label>
+          <textarea id="address" required>
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+          <legend>Mission statement</legend>
+          <div>
+            <label for="mars">Why do you want to go to Mars?</label>
+            <textarea id="mars">
+          </div>
+
+      <div>
+        <button type="submit">Register for the trip!</button>
+      </div>
+
+      </fieldset>
+
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
